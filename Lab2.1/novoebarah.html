@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Барахолка</title>
+        <link rel="stylesheet" href="novoebarah.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <div class="logotip">
+                    <h1>АнтикварБарахло</h1>
+                </div>
+                <hr width="50%">
+                <nav>
+                    <a href="barahlo.html"><b>Главная</b></a>
+                    <a href="novoebarah.html"><b>Опубликовать товар</b></a>
+                    <a href="kabinet.html"><b>Личный кабинет</b></a>
+                </nav>
+            </div>
+        </header>
+        <form class="novoe">
+            <fieldset>
+                <legend><b>Фотография</b></legend>
+                <input type="file" accept="image/jpeg, image/png"required>
+                <p>Выберите и загрузите нужное фото</p>
+            </fieldset>
+            <fieldset>
+                <legend><b>Основная Информация</b></legend>
+                <div>
+                    <label>Название:</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label>Цена:</label>
+                    <input type="number" required>
+                </div>
+                <div>
+                    <label>Описание:</label>
+                    <textarea rows="6" required></textarea>
+                </div>
+            </fieldset>
+            <button>Опубликовать</button>
+        </form>
+    </body>
+</html>
