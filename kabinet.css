@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: auto;
+    margin-bottom: 5px;
+    max-width: 800px;
+}
+
+header {
+    background-color: #ccffcc;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotip {
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.logotip h1 {
+    margin-bottom: auto;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+nav a {
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+a {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc6600;
+}
+
+hr {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+legend {
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    justify-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff9900;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: auto;
+    background-color: #ff9900;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease-out;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+input[type=file]::file-selector-button {
+    background-color: #ff9900;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    width: 135px;
+    border: none;
+}
+
+.kabinet a {
+    color: #ff9900
+}
+
+.kabinet a:hover {
+    color: #ffffcc
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 550px;
+    }
+    
+    input {
+        width: 400px;
+    }
+    
+    img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        max-width: 700px;
+    }
+    
+    input {
+        width: 400px;
+    }
+    
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 320px) {
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    body {
+        max-width: 320px;
+    }
+    
+    input {
+        width: 150px;
+    }
+    
+    a {
+        font-size: 12px;
+    }
+}
